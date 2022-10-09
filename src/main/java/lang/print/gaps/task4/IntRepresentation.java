@@ -7,10 +7,10 @@ public class IntRepresentation {
         char a = '4';
         char r = '2';
 
-        int t = Character.getNumericValue(c);
-        int u = Character.getNumericValue(h);
-        int i = Character.getNumericValue(a);
-        int j = Character.getNumericValue(r);
+        int t = c - '0';
+        int u = h - '0';
+        int i = a - '0';
+        int j = r - '0';
 
         System.out.println(t);
         System.out.println(u);
